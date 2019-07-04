@@ -211,9 +211,4 @@ public class Repositorio implements InterfaceRepositorio {
         statement.executeUpdate();
     }
 
-    @Override
-    public void AlterarPedido(int codigoPedido) throws SQLException, PedidoNaoEncontrado {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
 }
